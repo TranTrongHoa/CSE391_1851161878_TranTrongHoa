@@ -1,0 +1,185 @@
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black !important;
+}
+.footer-column1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+}
+.footer-column1-left{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+    border: 1px solid rgb(231, 231, 231);
+    padding: 8.5px;
+    margin-right: 20px;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: stretch;
+    margin-left: 15px;
+}
+.two-link-1column{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+}
+.two-link-1column a:first-child{
+    border: 1px solid rgb(231, 231, 231);
+    padding: 5px;
+    margin-right: 10px;
+}
+.two-link-1column a:last-child{
+    padding: 5px;
+}
+.logo-left{
+    width: 60px;
+    height: 90px;
+}
+.contact p:first-child{
+    font-size: 16px;
+    font-weight: bold;
+}
+.two-link-1column a{
+    font-size: 11px;
+    font-weight: bold;
+}
+.contact-title{
+    font-size: 12px;
+    color: #777;
+}
+.footer-column1-right{
+    width: 500px;
+    height: 130px;
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.5)), url(./background.jpg);
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: stretch;
+    background-position: center;
+    padding-left: 10px;
+}
+.logo-right{
+    width: 50px;
+    height: 50px;
+    margin-right: 5px;
+}
+.footer-column1-right-column1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: stretch;
+    color: white;
+    margin-top: 10px !important;
+}
+.footer-column1-right-column1-column2 a{
+    color: white !important;
+    font-size: 18px !important;
+}
+.footer-column1-right-column1-column2 p{
+    color: white !important;
+    font-size: 12px !important;
+    line-height: 0px !important;
+}
+.footer-column1-right-column2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: stretch;
+    padding-right: 10px;
+}
+.footer-column1-right-column2 a{
+    background-color: white;
+    padding: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 2px;
+    margin-bottom: 5px;
+}
+.footer-column2-title{
+    font-size: 14px;
+    font-weight: bold;
+    color: #555;
+}
+.footer-column2-describe{
+    font-size: 13px;
+    color: #777;
+    line-height: 18px;
+    margin-top: -10px;
+}
+.footer-column2-row1 a{
+    font-size: 10px;
+    font-weight: bold;
+    color: #777;
+}
+.fa-map-marker-alt, .fa-phone-alt{
+    color: #777;
+    margin-right: 10px;
+}
+.messenger-k14{
+    background-color: #047bea;
+    padding: 10px;
+    border-radius: 2px;
+    color: white !important;
+    width: fit-content;
+    margin-top: 10px;
+}
+.see-more{
+    background-color: #fa5d37;
+    padding: 10px;
+    border-radius: 2px;
+    color: white !important;
+    width: fit-content;
+    margin-top: 10px;
+}
+.see-more:hover{
+    background-color: #333;
+}
+.footer-column2-row1,.footer-column2-row2,.footer-column2-row3{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: justify;
+    align-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 280px;
+}
+.footer-column2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: stretch;
+    margin-top: 40px;
+}
+.footer-column2-row1,.footer-column2-row2{
+    border-right: 1px solid rgb(231, 231, 231);
+}
