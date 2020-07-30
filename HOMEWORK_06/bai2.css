@@ -1,0 +1,10 @@
+.scale-time {
+    display: flex;
+}
+
+#sltScaleTime {
+    background-color: aliceblue;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
