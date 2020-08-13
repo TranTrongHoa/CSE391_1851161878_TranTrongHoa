@@ -100,6 +100,11 @@ ul {
     width: 100%;
 }
 
+.col-md-8 .knswli {
+    background-image: url("https://kenh14cdn.com/thumb_w/250/2020/8/13/ngang-1597312995141462029130-crop-15973130120801845360795.png") !important;
+    background-repeat: no-repeat;
+}
+
 footer {
     font-family: Arial, Helvetica, sans-serif;
 }
