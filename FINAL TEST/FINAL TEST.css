@@ -12,14 +12,29 @@
     position: relative;
 }
 
-.nav li a {
-    font-family: SFD-Semibold;
-    font-size: 12px;
+.col-md-12 .nav li a {
+    font-size: 11px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    color: #FFF;
+    margin: 0;
+}
+
+ul {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.col-lg-12 .nav li a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
     line-height: 25px;
     color: #fff;
     text-decoration: none;
     display: block;
-    padding: 0 20px;
+    margin: 0;
 }
 
 .nav form {
@@ -43,8 +58,17 @@
 }
 
 .col-xl-12 img {
-    height: 100px;
-    width: 100px;
+    max-width: 150%;
+    max-height: 150%;
+    margin-top: -15px;
+    margin-left: 60px;
+}
+
+.col-lg-12 {
+    padding-left: 0px;
+    padding-right: 0px;
+    max-width: 100%;
+    position: relative;
 }
 
 .col-lg-12 .nav {
@@ -60,8 +84,20 @@
     vertical-align: baseline
 }
 
-.row .col-md-8 .tieude a {
+.row .col-md-8 .tieude {
     text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.row .col-md-4 iframe {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.carousel-inner {
+    padding-left: 60px;
+    width: 100%;
 }
 
 footer {
@@ -81,6 +117,7 @@ footer a {
     justify-content: center;
     align-items: center;
     align-content: stretch;
+    margin-top: 20px;
 }
 
 .footer-column1-left {
